@@ -1,0 +1,25 @@
+
+$main-txt-color: #111111;
+$secondary-color: #707070;
+$third-color: #4A4FF2;
+
+body {
+	max-width: 100vw;
+	width: 100%;
+	height: 100vh;
+	background: #FFFFFF;
+	border: none;
+	display: flex;
+	justify-content: center;
+	align-content: flex-start;
+	flex-wrap: wrap;
+}
+
+@import 'header';
+@import 'landing-page-intro';
+@import 'landing-page-gallery';
+@import 'landing-page-awards';
+@import 'footer';
+@import 'project';
+@import 'contact';
+@import 'text';
