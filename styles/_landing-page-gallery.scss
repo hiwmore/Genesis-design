@@ -1,0 +1,110 @@
+.grid__container{
+    background:#FFFFFF;
+    display:grid;
+    grid-gap:24px;
+    grid-template-columns:repeat(9,1fr);
+    grid-template-rows:repeat(32,1fr);
+    position:relative
+}
+.grid__element{
+    position:relative;
+    overflow:hidden
+}
+.one{
+    grid-column:1/4;
+    grid-row:1/8
+}
+.two{
+    grid-column:4/7;
+    grid-row:1/7
+}
+.three{
+    grid-column:7/10;
+    grid-row:1/11
+}
+.four{
+    grid-column:1/4;
+    grid-row:8/16
+}
+.five{
+    grid-column:4/7;
+    grid-row:7/14
+}
+.six{
+    grid-column:7/10;
+    grid-row:11/18
+}
+.seven{
+    grid-column:1/4;
+    grid-row:16/24
+}
+.eight{
+    grid-column:4/7;
+    grid-row:14/23
+}
+.nine{
+    grid-column:7/10;
+    grid-row:18/27
+}
+.ten{
+    grid-column:1/4;
+    grid-row:24/33
+}
+.eleven{
+    grid-column:4/7;
+    grid-row:23/33
+}
+.twelve{
+    grid-column:7/10;
+    grid-row:27/33
+}
+.gallery-text{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative
+}
+.gallery-text__main{
+    width:635px;
+    color:#111111;
+    font-family:"Mulish",sans-serif;
+    font-size:28px;
+    font-style:normal;
+    font-weight:400
+}
+.gallery-text__menu-left input{
+    display:flex;
+    flex-direction:column;
+    font-family:"Mulish",sans-serif;
+    font-size:18px;
+    font-style:normal;
+    font-weight:200
+}
+.gallery-text__menu-left input li{
+    display:inline-block
+}
+.gallery-text__menu-left input a{
+    color:#707070;
+    text-decoration:none
+}
+.gallery-text__menu-left input:hover{
+    color:#4A4FF2
+}
+.gallery-text__menu-right{
+    display:flex;
+    flex-direction:column;
+    font-family:"Mulish",sans-serif;
+    font-size:18px;
+    font-style:normal;
+    font-weight:200
+}
+.gallery-text__menu-right li{
+    display:inline-block
+}
+.gallery-text__menu-right a{
+    color:#707070;
+    text-decoration:none
+}
+.gallery-text__menu-right:hover{
+    color:#4A4FF2
+}

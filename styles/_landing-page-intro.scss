@@ -1,0 +1,34 @@
+.first-section{
+    width:100vw;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:end;
+    position:relative;
+    top:50%;
+    bottom:50%
+}
+.main-title{
+    width:635px;
+    color:#2F281E;
+    font-family:"Mulish",sans-serif;
+    font-size:40px;
+    font-style:normal;
+    font-weight:400
+}
+.second-title{
+    color:#4A4FF2;
+    font-family:"Mulish",sans-serif;
+    font-size:22px;
+    font-style:normal;
+    font-weight:400
+}
+.bread-text{
+    color:#707070;
+    font-family:"Mulish",sans-serif;
+    font-size:18px;
+    font-style:italic;
+    font-weight:300;
+    border-top:#707070;
+    border-top-style:solid;
+    border-image:linear-gradient(to right,#707070 20%,transparent 20%) 100% 1
+}

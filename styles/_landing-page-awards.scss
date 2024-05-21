@@ -1,0 +1,51 @@
+.awards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	max-width: 1110px;
+	width: 100%;
+	margin-bottom: 114px;
+	border-bottom: solid;
+	border-color: #D8D8D8;
+	&__first-container {
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+		max-width: 1110px;
+		width: 100%;
+		color: $main-txt-color;
+		font-family: 'Mulish', sans-serif;
+		border-top: solid;
+		border-color: #D8D8D8;
+	}
+	&__second-container {
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+		max-width: 753px;
+		width: 100%;
+		color: $main-txt-color;
+		font-family: 'Mulish', sans-serif;
+	}
+	&__third-container {
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+		max-width: 1110px;
+		width: 100%;
+		color: $main-txt-color;
+		font-family: 'Mulish', sans-serif;
+		border-top: solid;
+		border-color: #D8D8D8;
+	}
+	&__fourth-container {
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+		max-width: 753px;
+		width: 100%;
+		color: $main-txt-color;
+		font-family: 'Mulish', sans-serif;
+
+	}
+}
